@@ -28,24 +28,31 @@
     <item row="0" column="1">
      <widget class="QLineEdit" name="lineEdit"/>
     </item>
-    <item row="3" column="1">
+    <item row="4" column="1">
      <widget class="QPushButton" name="pushButton">
       <property name="text">
        <string>Add Item</string>
       </property>
      </widget>
     </item>
-    <item row="4" column="1">
+    <item row="5" column="1">
      <widget class="QPushButton" name="pushButton_2">
       <property name="text">
        <string>Delete Item</string>
       </property>
      </widget>
     </item>
-    <item row="5" column="1">
+    <item row="6" column="1">
      <widget class="QPushButton" name="pushButton_3">
       <property name="text">
        <string>Edit Item</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="text">
+       <string>Check Off</string>
       </property>
      </widget>
     </item>

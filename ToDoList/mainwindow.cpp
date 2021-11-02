@@ -55,3 +55,9 @@ void MainWindow::on_pushButton_3_clicked()
 
 }
 
+
+void MainWindow::on_pushButton_4_clicked()
+{
+ui->listWidget->currentItem()->setBackground(Qt::darkMagenta);
+}
+
