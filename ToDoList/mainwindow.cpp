@@ -32,13 +32,6 @@ void MainWindow::on_pushButton_clicked()
 
 
 
-void MainWindow::on_lineEdit_textChanged(const QString &arg1)
-{
-
-
-}
-
-
 void MainWindow::on_pushButton_2_clicked()
 {
    // QListWidgetItem *it = ui->listWidget->takeItem(ui->listWidget->currentItem());
@@ -59,6 +52,6 @@ ui->listWidget->currentItem()->setText(ui->lineEdit->displayText());
 
 void MainWindow::on_pushButton_4_clicked()
 {
-ui->listWidget->currentItem()->setBackground(Qt::darkMagenta);
+ui->listWidget->currentItem()->setBackground(Qt::gray);
 }
 
