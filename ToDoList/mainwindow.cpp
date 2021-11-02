@@ -7,6 +7,7 @@
 #include <QWidget>
 #include <QString>
 #include<string>
+#include<QListWidget>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -44,5 +45,13 @@ void MainWindow::on_pushButton_2_clicked()
     foreach (QListWidgetItem *NAME, ui->listWidget->selectedItems()) {
        delete ui->listWidget->takeItem(ui->listWidget->row(NAME));
     }
+}
+
+
+void MainWindow::on_pushButton_3_clicked()
+{
+
+
+
 }
 
