@@ -14,7 +14,7 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    ui->listWidget->addItem("Clean the basement");
+    ui->listWidget->addItem("Do the dishes");
 }
 
 MainWindow::~MainWindow()
